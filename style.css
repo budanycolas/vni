@@ -23,6 +23,7 @@ body {
     font-weight: 500;
     overflow-x: hidden;
 }
+
 header{
     display: flex;
         flex-direction: column;
@@ -66,7 +67,6 @@ header{
     .carrossel-conteúdo {
         grid-template-columns: 50% 50%;
     }
-
 
 
     .carrossel-dois {
