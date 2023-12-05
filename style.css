@@ -1,0 +1,114 @@
+header{
+    display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-título {
+        color: white;
+        font-weight: 700;
+        font-size: 2em;
+    }
+
+    .banner-texto-dois {
+        color: white;
+    }
+
+    .banner-pesquisa {
+        background: transparent;
+        padding: 1em;
+        color: white;
+        border-radius: 2em;
+        border: 1px solid;
+        width: 100%;
+        outline: none;
+        text-align: center;
+    }
+
+    .banner-pesquisa::placeholder {
+        color: white;
+        background: url(imagens/lupa.svg) no-repeat;
+        background-size: 3%;
+        background-position: 6em;
+    }
+
+    .banner-pesquisa::-webkit-search-cancel-button {
+        display: none;
+    }
+
+    .carrossel-conteúdo {
+        grid-template-columns: 50% 50%;
+    }
+
+
+
+    .carrossel-dois {
+        flex-direction: column;
+    }
+
+    .carrossel-dois-conteúdo {
+        padding-left: 0em;
+    }
+
+    .carrossel-dois-imagem {
+        width: 25%;
+    }
+
+
+    .carrossel-três {
+        flex-direction: column;
+    }
+
+    .carrossel-três-conteúdo {
+        padding-left: 0em;
+    }
+
+    .carrossel-três-imagem {
+        width: 25%;
+    }
+
+
+
+    .desenvolvedores-conteúdo {
+        grid-template-columns: 33% 33% 33%;
+    }
+
+@media screen and (max-width: 800px) {
+    
+
+    .container-meio {
+        display: none;
+    }
+
+    .container-título {
+        display: none;
+    }
+
+
+    .carrossel-dois {
+        padding: 2em 0em;
+    }
+
+    .carrossel-dois-conteúdo {
+        width: 90%;
+    }
+
+
+
+    .carrossel-três {
+        padding: 2em 0em;
+    }
+
+    .carrossel-três-conteúdo {
+        width: 90%;
+    }
+    
+
+
+    .desenvolvedores-item-título {
+        font-size: 0.75em;
+    }
+
+}
